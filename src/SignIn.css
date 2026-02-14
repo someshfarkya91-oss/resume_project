@@ -1,0 +1,61 @@
+/* Remove default browser spacing */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Full screen container */
+.login-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f4f6f8;
+}
+
+/* Card styling */
+.login-card {
+  background: blue;
+  padding: 40px;
+  width: 350px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-btn {
+  width: 70%;
+  padding: 15px;
+  background: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background: #125aa0;
+}
+
+.signup-text {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.signup-text span {
+  color: #1976d2;
+  cursor: pointer;
+}
